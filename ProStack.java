@@ -10,3 +10,9 @@ public class ProStackk<S> {
   public void push(int numbero) {
     stacke.add(numbero);
   }
+  public String toString() {
+    String ending = "";
+
+    for (Integer element : stacke) {
+      ending += element + "\n";
+    }
