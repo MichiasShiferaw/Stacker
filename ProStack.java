@@ -16,3 +16,8 @@ public class ProStackk<S> {
     for (Integer element : stacke) {
       ending += element + "\n";
     }
+
+    return ending.toString();
+  }
+
+}
