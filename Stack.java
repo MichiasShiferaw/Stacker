@@ -18,3 +18,11 @@ public class Stackkk {
     int userInput;
     boolean finished = false;
     String another = null;
+   
+    //Ask user for numeric input
+    System.out.println("What would you like to add to the stack?");   
+   
+    while (finished == false) {
+      System.out.println("Remember only integers!!"); 
+      try {
+        userInput = Integer.parseInt(br.readLine());
