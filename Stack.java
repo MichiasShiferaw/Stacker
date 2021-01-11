@@ -6,4 +6,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Stackkk {
-  
+    public static void main(String[] args) throws IOException {
+    //Creating new integer array
+    ArrayList<Integer> stackerr = new ArrayList<Integer>();
+    ProStack stacker = new ProStack<Integer>();
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
