@@ -11,3 +11,10 @@ public class Stackkk {
     ArrayList<Integer> stackerr = new ArrayList<Integer>();
     ProStack stacker = new ProStack<Integer>();
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+   
+    Scanner input = new Scanner(System.in);
+    
+    //Declare variables
+    int userInput;
+    boolean finished = false;
+    String another = null;
