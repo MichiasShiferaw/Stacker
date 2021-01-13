@@ -37,3 +37,8 @@ public class Stackkk {
         System.err.println("The program only accepts integers.");
         
       }
+      System.out.println("Would you like to add another arbitrary integer? Y/N");
+      //Read user decision on if they would like to input another input
+      another = input.next();
+
+      String retry = another.toUpperCase();
