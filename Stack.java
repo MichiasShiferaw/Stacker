@@ -50,3 +50,5 @@ public class Stackkk {
         //Verify if the array list is empty
         boolean verify = stackerr.isEmpty(); 
         if (verify == true) {
+           System.out.println("The stack is empty"); 
+        }else if (verify == false) {
