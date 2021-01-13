@@ -52,3 +52,6 @@ public class Stackkk {
         if (verify == true) {
            System.out.println("The stack is empty"); 
         }else if (verify == false) {
+          System.out.println("Push numbers;");
+          System.out.println(stacker.toString());
+        }
