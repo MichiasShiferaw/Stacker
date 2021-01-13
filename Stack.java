@@ -30,3 +30,10 @@ public class Stackkk {
         stacker.push(userInput);
         int numbers = userInput;
         stackerr.add(numbers);
+
+      } catch (NumberFormatException nfe) {
+        //the user failed to input an integer resulting into an error
+        System.err.println("Invalid input!");
+        System.err.println("The program only accepts integers.");
+        
+      }
