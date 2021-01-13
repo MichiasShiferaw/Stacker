@@ -47,3 +47,6 @@ public class Stackkk {
         //as the user inputted that they no longer wants to add more numbers, the boolean is true
         finished = true;
         
+        //Verify if the array list is empty
+        boolean verify = stackerr.isEmpty(); 
+        if (verify == true) {
