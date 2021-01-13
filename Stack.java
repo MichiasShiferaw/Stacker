@@ -26,3 +26,7 @@ public class Stackkk {
       System.out.println("Remember only integers!!"); 
       try {
         userInput = Integer.parseInt(br.readLine());
+
+        stacker.push(userInput);
+        int numbers = userInput;
+        stackerr.add(numbers);
