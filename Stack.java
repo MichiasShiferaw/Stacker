@@ -55,3 +55,7 @@ public class Stackkk {
           System.out.println("Push numbers;");
           System.out.println(stacker.toString());
         }
+
+        System.out.println("Bye Bye");
+      }
+    }
