@@ -42,3 +42,8 @@ public class Stackkk {
       another = input.next();
 
       String retry = another.toUpperCase();
+
+      if ((retry.equals("NO")) || (retry.equals("N"))) {
+        //as the user inputted that they no longer wants to add more numbers, the boolean is true
+        finished = true;
+        
